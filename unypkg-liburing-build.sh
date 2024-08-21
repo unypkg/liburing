@@ -84,8 +84,8 @@ make -j"$(nproc)"
 make -j"$(nproc)" check 
 make -j"$(nproc)" install
 
-mv /uny/pkg/"$pkgname"/"$pkgver"/include/liburing/* /uny/pkg/"$pkgname"/"$pkgver"/include
-rm -rf /uny/pkg/"$pkgname"/"$pkgver"/include/liburing
+#mv /uny/pkg/"$pkgname"/"$pkgver"/include/liburing/* /uny/pkg/"$pkgname"/"$pkgver"/include
+#rm -rf /uny/pkg/"$pkgname"/"$pkgver"/include/liburing
 
 ####################################################
 ### End of individual build script
